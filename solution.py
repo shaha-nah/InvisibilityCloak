@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import time
 
-capture = cv2.VideoCapture("./path/video.mp4")
+capture = cv2.VideoCapture("./video.mp4")
 
 time.sleep(1)
 count = 0
@@ -22,7 +22,7 @@ frame_width = int(capture.get(3))
 frame_height = int(capture.get(4))
 
 #define codec
-video = cv2.VideoWriter('invisibility_cloak.mp4', cv2.VideoWriter_fourcc('M','J','P','G'), 10, (frame_width, frame_height))
+video = cv2.VideoWriter('invisibility_cloak.avi', cv2.VideoWriter_fourcc('M','J','P','G'), 30, (frame_width, frame_height))
 
 #read from video
 while (capture.isOpened()):
