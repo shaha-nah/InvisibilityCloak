@@ -5,7 +5,6 @@ Inspired by Harry Potter.
 Using simple image processing, the [code](solution.py) turns
 a `red` colour cloth into an invisibility cloak.
 
----
 
 ## Installation
 
